@@ -46,7 +46,7 @@ app.get('/', (req, res) => {
     res.send('<h1>Server del mio blog</h1>');
 });
 
-app.get('/', (req, res) => {
+app.get('/bacheca', (req, res) => {
     res.json(posts);
 });
 
