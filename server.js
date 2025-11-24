@@ -2,6 +2,7 @@ const express = require('express')
 const app = express()
 const port = 3000
 
+// asset statici
 app.use(express.static('public'));
 
 const posts = [
